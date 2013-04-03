@@ -1,0 +1,45 @@
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+
+struct person {
+	char * name ;
+	int age
+}
+
+struct person *person_create(char *name, int age) {
+	
+	struct person *someone = malloc(sizeof(struct person))
+	assert(someone != Null)
+
+	someone->name = stdrup(name) //string dup checks if empty else allocates memory of size string
+	someone->age = age
+
+
+}
+
+void print_person(struct person) {
+	printf
+	printf
+}
+
+void destroy_person(struct person) {
+	assert(person != Null)
+
+	free(person->name)
+	free(person)
+
+}
+
+int main (int argc, char *argv[]) {
+	
+	struct person *joe = (x,y)
+
+	printf('%p',joe) //memory allocated to joe
+	print_person(joe)
+	destroy_person(joe) //no dangling pointers
+
+
+	return 0;
+}

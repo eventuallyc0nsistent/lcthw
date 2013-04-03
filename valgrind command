@@ -1,0 +1,1 @@
+valgrind ./ex1.c
